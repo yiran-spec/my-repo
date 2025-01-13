@@ -4,6 +4,7 @@ metadata:
   name: gitea
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
   - host: gitea.example.com
