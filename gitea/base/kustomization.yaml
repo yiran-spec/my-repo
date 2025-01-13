@@ -6,5 +6,4 @@ resources:
   - ingress.yaml
   - pv.yaml
   - pvc.yaml
-patchesStrategicMerge:
-  - patches.yaml
+ 
