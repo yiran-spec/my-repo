@@ -1,6 +1,6 @@
 resources:
-  - deployment.yaml
-  - service.yaml
+  - deploy.yaml
+  - svc.yaml
   - ingress.yaml
   - pv.yaml
   - pvc.yaml
